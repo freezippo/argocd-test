@@ -2,5 +2,5 @@
   path: /spec/replicas
   value: 2
 - op: replace
-  path: '/spec/template/spec/containers[0]/envFrom[0]/secretRef/name'
+  path: '/spec/template/spec/containers/0/envFrom/0/secretRef/name'
   value: db-secret-2
