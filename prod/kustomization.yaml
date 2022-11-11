@@ -8,3 +8,7 @@ patches:
 - path: patch.yaml
   target:
     kind: Deployment
+
+images:
+- name: nginx
+  newTag: '1.17'
